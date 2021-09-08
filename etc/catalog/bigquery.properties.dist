@@ -1,0 +1,5 @@
+connector.name=bigquery
+bigquery.project-id=<project-id>
+# Create file /<project root>/etc/bigquery-key.json that store Google Cloud credentials.
+# It will be mounted into container to be accessible for Trino
+bigquery.credentials-file=/etc/trino/bigquery-key.json
